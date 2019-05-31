@@ -1,4 +1,4 @@
-baseurl = "https://fujihalab-site.netlify.com/"
+baseurl = "https://fujihalab.netlify.com/"
 title = "Fujihalab"
 theme = "hugo-universal-theme"
 themesDir = "./themes"
