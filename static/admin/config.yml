@@ -6,7 +6,7 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "static/img/banners"
-public_folder: "img/banners"
+public_folder: "/img/banners"
 
 collections:
   - name: "post"
