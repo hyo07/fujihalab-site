@@ -176,9 +176,9 @@ paginate = 10
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "メンバー抜粋"
+    title = "メンバー紹介"
     # subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-    subtitle = "サブタイトル"
+    # subtitle = ""
 
 # ようわからん中の上くらいの位置にある部分（背景画像あるところ）
 [params.see_more]
@@ -200,13 +200,13 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     # title = "Our Clients"
-    title = "skills"
+    title = "tools & skills"
     subtitle = ""
 
 # HOMEページのブログ抜粋部分
 [params.recent_posts]
     enable = true
     # title = "From our blog"
-    title = "ふろむ　あうあ　ぶろぐ"
+    title = "最新記事"
     # subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-    subtitle = "さぶたいとるううううううぅぅぅうううるるるるるーるるるー"
+    # subtitle = "さぶたいとるううううううぅぅぅうううるるるるるーるるるー"
