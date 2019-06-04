@@ -271,7 +271,7 @@ ul.list-style-none {
   background-color: #3cf;
 }
 #top .social a:hover.instagram {
-  background-color: #cd4378;
+  background-color: rgb(194, 163, 71);
 }
 #top .social a:hover.email {
   background-color: #4a7f45;
@@ -317,7 +317,7 @@ ul.list-style-none {
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 5px #934478;
+  border-top: solid 5px rgb(180, 152, 69);
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
@@ -329,12 +329,12 @@ ul.list-style-none {
   }
 }
 .navbar.navbar-light ul.nav > li.active > a {
-  border-top: solid 5px #934478;
+  border-top: solid 5px rgb(175, 142, 43);
   background: #fff !important;
   color: #555555 !important;
 }
 .navbar.navbar-light ul.nav > li.active > a:hover {
-  border-top: solid 5px #934478;
+  border-top: solid 5px rgb(175, 142, 43);
 }
 .navbar.navbar-light ul.nav > li > a:hover,
 .navbar.navbar-light ul.nav > li.open > a:hover,
@@ -556,7 +556,7 @@ body.boxed .navbar-affixed-top.affix {
 .open > .dropdown-toggle.btn-template-main {
   color: #FFC107;
   background-color: #e6e6e6;
-  border-color: #af518f;
+  border-color: rgb(180, 153, 71);
 }
 .btn-template-main:active,
 .btn-template-main.active,
@@ -702,8 +702,8 @@ fieldset[disabled] .btn-template-transparent-black.active {
 .btn-template-primary.active,
 .open > .dropdown-toggle.btn-template-primary {
   color: #ffffff;
-  background-color: #b25894;
-  border-color: #af518f;
+  background-color: #FFC107;
+  border-color: #FFC107;
 }
 .btn-template-primary:active,
 .btn-template-primary.active,
@@ -3075,7 +3075,7 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #555555;
-  background-color: #e2c1d7;
+  background-color: #DDD;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -3162,7 +3162,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #a44c87;
+  color: rgb(160, 137, 67);
   text-decoration: underline;
 }
 a:focus {
@@ -3401,14 +3401,14 @@ p {
   color: #FFC107;
 }
 a.text-primary:hover {
-  color: #b25894;
+  color: rgb(170, 145, 70);
 }
 .bg-primary {
   color: #fff;
   background-color: #FFC107;
 }
 a.bg-primary:hover {
-  background-color: #b25894;
+  background-color: rgb(189, 160, 75);
 }
 abbr[title],
 abbr[data-original-title] {
