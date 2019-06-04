@@ -21,7 +21,9 @@
   float: right !important;
 }
 .pull-left {
-  float: left !important;
+  /* float: left !important; */
+  width: 100%;
+  text-align: center;
 }
 .hide {
   display: none !important;
