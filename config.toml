@@ -20,13 +20,13 @@ paginate = 10
 
 [[menu.main]]
     identifier="home"
-    name = "Home"
+    name = "ホーム"
     url  = "/"
     weight = 1
 
 [[menu.main]]
     identifier="blog"
-    name = "Blog"
+    name = "ブログ"
     url  = "/blog/"
     weight = 2
 
@@ -38,13 +38,13 @@ paginate = 10
 
 [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "コンタクト"
     url  = "/contact/"
     weight = 4
 
 [[menu.main]]
     identifier = "member"
-    name = "Member"
+    name = "メンバー"
     url  = "/member/"
     weight = 5
 
@@ -89,7 +89,7 @@ paginate = 10
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "yellow"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -199,7 +199,7 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     # title = "Our Clients"
-    title = "tools & skills"
+    title = "使用技術"
     subtitle = ""
 
 # HOMEページのブログ抜粋部分
