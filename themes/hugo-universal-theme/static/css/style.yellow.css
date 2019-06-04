@@ -1321,6 +1321,8 @@ fieldset[disabled] .btn-template-primary.active {
 .testimonials .item .testimonial .name-picture img {
   float: right;
   width: 60px;
+  height: 60px;
+  object-fit: cover;
   border-radius: 30px;
   margin-left: 10px;
 }
