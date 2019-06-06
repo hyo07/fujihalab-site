@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: hyo07/hugo-test
+  repo: hyo07/fujihalab-site
   branch: master
 
 publish_mode: editorial_workflow
