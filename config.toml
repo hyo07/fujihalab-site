@@ -36,17 +36,17 @@ paginate = 10
 #     url  = "/faq/"
 #     weight = 3
 
-[[menu.main]]
-    identifier = "contact"
-    name = "コンタクト"
-    url  = "/contact/"
-    weight = 4
+# [[menu.main]]
+#     identifier = "contact"
+#     name = "コンタクト"
+#     url  = "/contact/"
+#     weight = 4
 
-[[menu.main]]
-    identifier = "member"
-    name = "メンバー"
-    url  = "/member/"
-    weight = 5
+# [[menu.main]]
+#     identifier = "member"
+#     name = "メンバー"
+#     url  = "/member/"
+#     weight = 5
 
 # トップバナーのSNSアカウントリンク
 [[menu.topbar]]
