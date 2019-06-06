@@ -156,7 +156,7 @@ paginate = 10
 
 # スライドする一番うえのやつ
 [params.carousel]
-    enable = true
+    enable =  false
     # enable = false
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
