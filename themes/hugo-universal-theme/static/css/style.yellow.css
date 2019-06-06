@@ -23,6 +23,10 @@
 .pull-left {
   float: left !important;
 }
+.pull-center {
+  text-align: center;
+  width: 100%;
+}
 .hide {
   display: none !important;
 }
@@ -2048,8 +2052,22 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-homepage .post .read-more {
   text-align: right;
 }
+@media (max-width: 767px) {
+  #blog-listing-big .post .image img.img-responsive,
+  #blog-homepage .post .image img.img-responsive {
+    min-width: 100%;
+  }
+}
 #blog-listing-medium .post {
   margin-bottom: 60px;
+}
+#blog-listing-medium .post .row div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  height: 159.375px;
+}
+#blog-listing-medium .post .row div:nth-child(2) p:last-child{
+  margin-bottom: 0;
 }
 #blog-listing-medium .post h2 {
   text-transform: uppercase;
