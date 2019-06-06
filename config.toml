@@ -177,7 +177,7 @@ paginate = 10
     # For more informtion take a look at the README.
     title = "メンバー紹介"
     # subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-    # subtitle = ""
+    # subtitle = "<span></span>"
 
 # ようわからん中の上くらいの位置にある部分（背景画像あるところ）
 [params.see_more]
