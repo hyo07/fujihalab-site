@@ -23,6 +23,10 @@
 .pull-left {
   float: left !important;
 }
+.pull-center {
+  text-align: center;
+  width: 100%;
+}
 .hide {
   display: none !important;
 }
