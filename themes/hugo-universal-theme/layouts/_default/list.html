@@ -30,9 +30,9 @@
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.banner }}
-                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="" width="200px" height="150px">
                                           {{ else }}
-                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="" width="200px" height="150px">
                                           {{ end }}
                                       </a>
                                   </div>
