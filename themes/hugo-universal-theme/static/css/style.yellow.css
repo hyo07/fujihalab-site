@@ -2056,6 +2056,7 @@ fieldset[disabled] .btn-template-primary.active {
   #blog-listing-big .post .image img.img-responsive,
   #blog-homepage .post .image img.img-responsive {
     min-width: 100%;
+    height: 500px;
   }
 }
 #blog-listing-medium .post {
