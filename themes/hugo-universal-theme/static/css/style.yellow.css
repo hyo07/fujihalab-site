@@ -2107,6 +2107,10 @@ fieldset[disabled] .btn-template-primary.active {
   #blog-listing-medium .post .date-comments {
     text-align: right;
   }
+  #blog-listing-medium .post img {
+    width: 200px;
+    height: 150px;
+  }
 }
 #blog-listing-medium .post .intro {
   text-align: left;
