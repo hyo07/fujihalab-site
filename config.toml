@@ -79,7 +79,7 @@ paginate = 10
     author = "DevCows"
     # 共通のHTMLのmetaタグへの設定とかと推測
     defaultKeywords = ["千葉工業大学","千葉工大","CIT","津田沼","習志野"]
-    defaultDescription = "千葉工業大学 情報通信システム工学科 藤原研究室の研究室ページです.このページは研究室の有志が作成しました."
+    defaultDescription = "千葉工業大学 情報通信システム工学科 藤原研究室の研究室ページです。このページは研究室の有志が作成しました。"
 
     # Twitter
     twitter = "GoHugoIO"
@@ -110,7 +110,7 @@ paginate = 10
 
     # footerのあたり？（ここらへん微妙）
     # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    about_us = "千葉工業大学 工学部 情報通信システム工学科 の藤原研究室のHPです.このページは研究室の有志により運営されています."
+    about_us = "千葉工業大学 工学部 情報通信システム工学科 の藤原研究室のHPです。このページは研究室の有志により運営されています。"
     copyright = "Copyright (c) 2019"
 
     # Format dates with Go's time formatting
