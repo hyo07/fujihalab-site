@@ -1123,12 +1123,12 @@ fieldset[disabled] .btn-template-primary.active {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
   background: #FFC107;
 }
-.owl-carousel .owl-controls .owl-buttons,
+/* .owl-carousel .owl-controls .owl-buttons,
 .owl-theme .owl-controls .owl-buttons {
   position: absolute;
   top: 5px;
   right: 0;
-}
+} */
 .owl-carousel .owl-controls .owl-buttons div,
 .owl-theme .owl-controls .owl-buttons div {
   width: 26px;

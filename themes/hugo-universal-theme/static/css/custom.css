@@ -7,3 +7,32 @@
 .box-simple {
   min-height: 230px;
 }
+
+.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: -35px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: transparent !important;
+}
+
+.owl-prev i,.owl-next i {
+  color: #666;
+  opacity: 0.5;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.owl-next {
+  position: absolute;
+  top: 50%;
+  right: -35px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: transparent !important;
+}
+
+.owl-button {
+  position: relative;
+}
