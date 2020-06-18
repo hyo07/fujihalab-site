@@ -83,6 +83,7 @@ function sliderHomepage () {
 
     $('#slider').owlCarousel({
       autoPlay: 3000,
+      slideSpeed : 400,
       items: 4,
       itemsDesktopSmall: [900, 3],
       itemsTablet: [600, 3],
@@ -94,63 +95,64 @@ function sliderHomepage () {
 /* sliders */
 function sliders () {
   if ($('.owl-carousel').length) {
-    $('.customers').owlCarousel({
-      navigation: true, // Show next and prev buttons
-      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      rewindNav : true, //最初に戻るの機能の有無
-      scrollPerPage : false, //falseでスライドの動きを一個ずつ
-      items: 6,
-      itemsDesktopSmall: [990, 4],
-      itemsTablet: [768, 2],
-      itemsMobile: [480, 1],
-      // CSS Styles
-      baseClass : "owl-arrow-button", //classの名前の設定
-    })
-
-    $('.testimonials').owlCarousel({
-      navigation: true, // Show next and prev buttons
-      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      rewindNav : false, //最初に戻るの機能の有無
-      scrollPerPage : true, //falseでスライドの動きを一個ずつ
-      items: 4,
-      itemsDesktopSmall: [990, 3],
-      itemsTablet: [768, 2],
-      itemsMobile: [480, 1],
-      baseClass : "owl-arrow-button", //classの名前の設定
-    })
-
-    $('.project').owlCarousel({
-      navigation: true, // Show next and prev buttons
-      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      slideSpeed: 300,
-      paginationSpeed: 400,
-      autoPlay: true,
-      stopOnHover: true,
-      singleItem: true,
-      afterInit: '',
-      lazyLoad: true,
-      baseClass : "owl-arrow", //classの名前の設定
-    })
-
+    // トップの紹介
     $('.homepage').owlCarousel({
       navigation: true, // Show next and prev buttons
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
       rewindNav : false, //最初に戻るの機能の有無
       scrollPerPage : false, //falseでスライドの動きを一個ずつ
-      slideSpeed: 2000,
+      slideSpeed: 1000,
       paginationSpeed: 1000,
       autoPlay: true,
       stopOnHover: true,
       singleItem: true,
       lazyLoad: false,
       addClassActive: true,
-      baseClass : "owl-arrow", //classの名前の設定
       afterInit: function () {
         // animationsSlider()
       },
       afterMove: function () {
         // animationsSlider()
       }
+    })
+
+    // メンバー
+    $('.testimonials').owlCarousel({
+      navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+      rewindNav : false, //最初に戻るの機能の有無
+      scrollPerPage : true, //falseでスライドの動きを一個ずつ
+      slideSpeed : 1000,
+      items: 4,
+      itemsDesktopSmall: [990, 3],
+      itemsTablet: [768, 2],
+      itemsMobile: [480, 1],
+    })
+
+    // 技術のところ
+    $('.customers').owlCarousel({
+      navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+      rewindNav : true, //最初に戻るの機能の有無
+      scrollPerPage : false, //falseでスライドの動きを一個ずつ
+      slideSpeed : 800,
+      items: 6,
+      itemsDesktopSmall: [990, 4],
+      itemsTablet: [768, 2],
+      itemsMobile: [480, 1],
+      // CSS Styles
+    })
+
+    $('.project').owlCarousel({
+      navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+      slideSpeed: 1000,
+      paginationSpeed: 400,
+      autoPlay: true,
+      stopOnHover: true,
+      singleItem: true,
+      afterInit: '',
+      lazyLoad: true,
     })
   }
 }
